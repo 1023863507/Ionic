@@ -25,8 +25,9 @@ export class AddingPage {
   }
 
   save(){
-    this.model.save().then(result=>{
-      this.model=new Transaction(null,"");
+    this.model.save().then(resut=>{
+      this.model=new Transaction(null,"");  //Inicializa losvalores
+      this.navCtrl.pop(); //devuelve la pantalla anterior
     });
   }
 
