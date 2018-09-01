@@ -16,7 +16,7 @@ import {Transaction} from '../../database';
 })
 export class AddingPage {
   model : Transaction= new Transaction(null,"");
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams){
   }
 
   ionViewDidLoad() {

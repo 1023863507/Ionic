@@ -1,3 +1,4 @@
+import { MapPage } from './../map/map';
 import { NavController } from 'ionic-angular';
 import { Component } from '@angular/core';
 
@@ -12,7 +13,7 @@ import { TransactionsPage } from '../transactions/transactions';
 export class TabsPage {
 
   tab1Root = TransactionsPage;
-  tab2Root = AboutPage;
+  tab2Root = MapPage;
   tab3Root = ContactPage;
 
   constructor() {
